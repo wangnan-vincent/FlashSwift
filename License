@@ -1,5 +1,5 @@
 MIT License
-Copyright (c) [Nan Wang] [2025]
+Copyright (c) 2025 Nan Wang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,21 +19,23 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
+-------------------------------------------------------------------------------
 Acknowledgment of Third-Party Code
-This project includes portions of code that are licensed under the MIT License
-by other authors. Below are the details of the third-party contributions:
+-------------------------------------------------------------------------------
 
+This project incorporates third-party code released under both the MIT License
+and the GNU General Public License (GPL). The applicable licenses and authors
+are listed below.
+
+-------------------------------------------------------------------------------
 [BulletProofLib]
-
-Author(s): [Benedikt Bünz]
-Original Repository or Source: [https://github.com/bbuenz/BulletProofLib]
+Author(s): Benedikt Bünz
+Source: https://github.com/bbuenz/BulletProofLib
 License: MIT License
 
-For the third-party code included in this project, the following MIT License applies:
+The following MIT License applies to this component:
 
 MIT License
-
 Copyright (c) 2017 Benedikt Bünz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -54,16 +56,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+-------------------------------------------------------------------------------
 [Flashproofs]
-
-Author(s): [Nan Wang]
-Original Repository or Source: [https://github.com/wangnan-vincent/Flashproofs]
+Author(s): Nan Wang
+Source: https://github.com/wangnan-vincent/Flashproofs
 License: MIT License
 
-For the third-party code included in this project, the following MIT License applies:
+The following MIT License applies to this component:
 
 MIT License
-Copyright (c) [Nan Wang] [2025]
+Copyright (c) 2025 Nan Wang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -82,3 +84,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------
+[Paillier Threshold Encryption Toolbox]
+Author(s): [James Garrity, Sean Hall]
+Source: [https://labs.utdallas.edu/dspl/files/2023/07/pailliersrc.zip]
+License: GNU General Public License v3.0
+Files referencing this GPL-licensed code:
+- src/main/java/utils/CryptoGenerator.java
+
+The portions of this project derived from the above source are governed by the
+GNU General Public License v3.0 (GPLv3). A copy of the GPLv3 license text is
+included in the accompanying file LICENSE-GPL.txt and can also be found at:
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+When redistributing this software, any portions originating from GPL-licensed
+sources remain subject to the terms of the GNU GPL v3.0.
+-------------------------------------------------------------------------------
